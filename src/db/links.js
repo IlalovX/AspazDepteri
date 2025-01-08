@@ -31,97 +31,141 @@ export const images = [
 
 export const food = [
 	{
-		img: '../assets/img/gallery/img_1.jpg',
-		name: 'sushi',
-		desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas at mollitia assumenda odit nobis eveniet, molestias tempore non, qui nostrum facere atque fugit ut! Minus enim laboriosam eos necessitatibus ipsum.',
+		img: '../food/Плов.jfif',
+		desc: 'Plov - Ózbekstandaǵı eń ataqlı hám ardaqlı tamaqlardan biri. Bul gósh (ádetde qoy yamasa siyir góshi), palız eginleri, piyaz, tatımlıqlar hám sarımsaq menen tayarlanǵan gúrish Plov kóbinese bayramlar hám bayramlarda xızmet etedi.',
+		name: 'Plov',
 		ing: [
 			{
-				title: 'sugar',
-				weight: '300gt',
+				title: 'Gurish',
+				weight: '500g',
 			},
 			{
-				title: 'sold',
-				weight: '300gt',
+				title: 'Gosh',
+				weight: '400g',
+			},
+			{
+				title: 'Geshir',
+				weight: '400g',
+			},
+			{
+				title: 'Piyaz',
+				weight: '2 sht',
+			},
+			{
+				title: 'Ósimlik mayı',
+				weight: '100ml',
 			},
 		],
 	},
 	{
-		img: '../assets/img/gallery/img_1.jpg',
-		name: 'pizza',
-		desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.',
+		img: '../food/Шашлык.jfif',
+		desc: 'Shashliq - bul gósh bólekleri, ádetde qoy yamasa siyir góshi, tatımlıqlar menen marinadlangan hám kómirde qovurilganOl pishiriqlar, palız eginleriler hám souslar menen birge beriledi.',
+		name: 'Shashliq',
 		ing: [
 			{
-				title: 'flour',
-				weight: '200gt',
+				title: 'Gosh',
+				weight: '1kg',
 			},
 			{
-				title: 'cheese',
-				weight: '150gt',
+				title: 'Piyaz',
+				weight: '4sht',
 			},
 			{
-				title: 'tomato',
-				weight: '100gt',
+				title: 'Ósimlik mayı',
+				weight: '3 stakan',
+			},
+			{
+				title: 'Uksus',
+				weight: '1 stakan',
 			},
 		],
 	},
 	{
-		img: '../assets/img/gallery/img_2.jpg',
-		name: 'burger',
-		desc: 'Cras id dui. Integer vehicula sollicitudin eros. Sed velit nulla, mollis et volutpat at, suscipit et massa. Etiam egestas wisi ac ipsum. Suspendisse sapien odio, dictum sed, congue at, commodo sit amet, augue.',
+		img: '../food/Самса.jfif',
+		desc: 'Samsa - bul kóbinese gósh (qoy yamasa siyir góshi), piyaz hám tatımlıqlar menen hár qıylı toldırılǵan tartlar Samsa oshaqta tayarlanadı hám ol awqatlanıw ushın júdá ataqlı.',
+		name: 'Samsa',
 		ing: [
 			{
-				title: 'beef patty',
-				weight: '150gt',
+				title: 'Qatlamlı qamır',
+				weight: '500g',
 			},
 			{
-				title: 'bun',
-				weight: '100gt',
+				title: 'Gosh',
+				weight: '300g',
 			},
 			{
-				title: 'lettuce',
-				weight: '50gt',
+				title: 'Piyaz',
+				weight: '3 sht',
+			},
+			{
+				title: 'Mayek',
+				weight: '1 sht',
 			},
 		],
 	},
 	{
-		img: '../assets/img/gallery/img_3.jpg',
-		name: 'pasta',
-		desc: 'Phasellus tempus nunc orci, nec tempus erat tincidunt et. Morbi cursus ante id justo placerat, euismod aliquet arcu convallis. Nam ut dui at purus elementum hendrerit.',
+		img: '../food/Шакароб.jfif',
+		desc: 'Shakarob - bul Ózbekstanda keń tarqalǵan dástúriy salat.Ol pomidor, qıyar, piyaz, palız eginlerilerden ibarat bolıp, kóp muǵdarda palız eginleri mayı hám limon sherbeti menen toldırılǵan.Bul jeńil hám shıpabaxsh salat.',
+		name: 'Shakarob',
 		ing: [
 			{
-				title: 'pasta',
-				weight: '200gt',
+				title: 'Pomidor',
+				weight: '3 sht',
 			},
 			{
-				title: 'olive oil',
-				weight: '30ml',
+				title: 'Qiyar',
+				weight: '2 sht',
 			},
 			{
-				title: 'garlic',
-				weight: '10gt',
+				title: 'Kok Piyaz',
+				weight: '1 sht',
+			},
+			{
+				title: 'Ósimlik mayı',
+				weight: '2 stakan',
+			},
+			{
+				title: 'Limon soki',
+				weight: '1 stakan',
 			},
 		],
 	},
 	{
-		img: '../assets/img/gallery/img_1.jpg',
-		name: 'salad',
-		desc: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+		img: '../food/513198.webp',
+		desc: "Mastava - bul gósh, gúrish, kartoshka, pomidor, piyaz hám palız eginlerilerden tayarlanǵan dástúriy ózbek sıpa Bul kebirva mazalı ta'mga iye hám kóbinese lavash menen taǵamlanadı.",
+		name: 'Mastava',
 		ing: [
 			{
-				title: 'lettuce',
-				weight: '100gt',
+				title: 'Gosh',
+				weight: '300g',
 			},
 			{
-				title: 'tomatoes',
-				weight: '80gt',
+				title: 'Gurish',
+				weight: '100g',
 			},
 			{
-				title: 'cucumber',
-				weight: '50gt',
+				title: 'Kartoshka',
+				weight: '2sht',
 			},
 			{
-				title: 'olive oil',
-				weight: '20ml',
+				title: 'Geshir',
+				weight: '1sht',
+			},
+			{
+				title: 'Piyaz',
+				weight: '1sht',
+			},
+			{
+				title: 'Pomidor',
+				weight: '2sht',
+			},
+			{
+				title: 'Sarımsaq basi',
+				weight: '2sht',
+			},
+			{
+				title: 'Ósimlik mayı',
+				weight: '2 stakan',
 			},
 		],
 	},

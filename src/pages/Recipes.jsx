@@ -2,7 +2,7 @@ import RecipeCard from '../components/RecipeCard'
 import { food } from '../db/links'
 
 export default function Recipes() {
-	const recipes = food.sort(() => Math.random() - 0.5)
+	const recipes = food
 
 	return (
 		<div>
