@@ -1,0 +1,38 @@
+.favourite-food {
+	h1 {
+		font-size: 2.5em;
+		letter-spacing: 3px;
+		margin-bottom: 1.5em;
+	}
+	.card {
+		box-shadow: 0 5px 15px var(--shadow-color);
+		display: flex;
+		justify-content: left;
+		height: 11em;
+		gap: 20px;
+		margin-bottom: 2em;
+		position: relative;
+		.img-container {
+			width: 20em;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		h2 {
+			font-size: 1.5em;
+			margin-top: 0.4em;
+		}
+		p {
+			text-overflow: clip;
+			margin: 0.3em 0;
+			width: 80%;
+		}
+		button {
+			position: absolute;
+			margin: 0;
+			bottom: 10px;
+		}
+	}
+}
