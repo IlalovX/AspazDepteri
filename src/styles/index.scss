@@ -191,6 +191,9 @@ img {
 	}
 }
 @media screen and (max-width: 480px) {
+	.logo-name{
+		display: none;
+	}
 	.container {
 		padding-inline: 3vw;
 	}

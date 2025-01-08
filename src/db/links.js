@@ -18,15 +18,15 @@ export const links = [
 	},
 ]
 export const images = [
-	'../../public/assets/img/gallery/img_1.jpg',
-	'../../public/assets/img/gallery/img_2.jpg',
-	'../../public/assets/img/gallery/img_3.jpg',
-	'../../public/assets/img/gallery/img_4.jpg',
-	'../../public/assets/img/gallery/img_5.jpg',
-	'../../public/assets/img/gallery/img_6.jpg',
-	'../../public/assets/img/gallery/img_7.jpg',
-	'../../public/assets/img/gallery/img_8.jpg',
-	'../../public/assets/img/gallery/img_9.jpg',
+	'../assets/img/gallery/img_1.jpg',
+	'../assets/img/gallery/img_2.jpg',
+	'../assets/img/gallery/img_3.jpg',
+	'../assets/img/gallery/img_4.jpg',
+	'../assets/img/gallery/img_5.jpg',
+	'../assets/img/gallery/img_6.jpg',
+	'../assets/img/gallery/img_7.jpg',
+	'../assets/img/gallery/img_8.jpg',
+	'../assets/img/gallery/img_9.jpg',
 ]
 
 export const food = [
