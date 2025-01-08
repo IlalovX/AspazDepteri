@@ -4,7 +4,7 @@ import Modal from './Modal'
 function FavouriteFood() {
 	return (
 		<div className='favourite-food'>
-			<h1>Favourite Food</h1>
+			<h1>Ardaqlı tamaqlar</h1>
 			{food.map(item => {
 				return (
 					<div className='card' key={item.name}>
