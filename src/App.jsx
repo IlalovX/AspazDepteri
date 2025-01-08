@@ -7,23 +7,15 @@ import Settings from './pages/Settings'
 function App() {
 	return (
 		<Router>
-			<div
-				style={{
-					display: 'flex',
-					flexDirection: 'column',
-					justifyContent: 'space-between',
-				}}
-			>
-				<Navbar />
-				<div className='container main'>
-					<Routes>
-						<Route path='/' element={<Home />} />
-						<Route path='/recipes' element={<Recipes />} />
-						<Route path='/settings' element={<Settings />} />
-					</Routes>
-				</div>
-				<Footer />
+			<Navbar />
+			<div className='container main'>
+				<Routes>
+					<Route path='/' element={<Home />} />
+					<Route path='/recipes' element={<Recipes />} />
+					<Route path='/settings' element={<Settings />} />
+				</Routes>
 			</div>
+			<Footer />
 		</Router>
 	)
 }

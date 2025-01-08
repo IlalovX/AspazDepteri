@@ -4,7 +4,7 @@
 @use '../styles/partials/favourite-food' as *;
 @use '../styles/partials/hero-section.scss' as *;
 @use '../styles/partials/recipes-section.scss' as *;
-@use '../styles/partials/animation.scss' as *;
+@use '../styles/partials/animations.scss' as *;
 
 :root {
 	--background-color: #fff;
@@ -145,7 +145,7 @@ img {
 }
 
 .main {
-	padding-block: 3vw;
+	padding-block: 5vw;
 }
 .container {
 	padding-inline: 25vw;
@@ -178,21 +178,7 @@ img {
 			margin-bottom: 2em;
 		}
 	}
-	.skill-item {
-		display: inline-block;
-		margin: 0.75em;
-	}
-	.section.improve-skills .btn {
-		display: block;
-		margin-left: 50%;
-		transform: translateX(-50%);
-	}
-	.chief-card {
-		box-shadow: 0 5px 10px var(--shadow-color);
-	}
-	.container {
-		padding-inline: 6vw;
-	}
+
 	.footer {
 		grid-template-columns: repeat(4, 1fr);
 		.footer-section:nth-child(1) {

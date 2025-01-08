@@ -1,20 +1,9 @@
-import CustomImage from './CustomImage'
+import { images } from '../db/links'
 
 function HeroSection() {
-	const images = [
-		'/assets/img/gallery/img_1.jpg',
-		'/assets/img/gallery/img_2.jpg',
-		'/assets/img/gallery/img_3.jpg',
-		'/assets/img/gallery/img_4.jpg',
-		'/assets/img/gallery/img_5.jpg',
-		'/assets/img/gallery/img_6.jpg',
-		'/assets/img/gallery/img_7.jpg',
-		'/assets/img/gallery/img_8.jpg',
-		'/assets/img/gallery/img_9.jpg',
-	]
 	return (
 		<div className='section hero'>
-			<div className='col'>
+			<div className='col  typography'>
 				<h1 className='title'>Bizler hakimizda</h1>
 				<p className='info'>
 					<span>Aspaz Depteri</span> saytına xosh kelipsiz, dúnya boylap
@@ -24,7 +13,13 @@ function HeroSection() {
 			</div>
 			<div className='col gallery'>
 				{images.map(image => (
-					<CustomImage key={image} imgSrc={image} pt={'85%'} />
+					<div
+						className='custom-image'
+						style={{ paddingTop: '80%' }}
+						key={image}
+					>
+						<img src={image} alt='photo' />
+					</div>
 				))}
 			</div>
 		</div>

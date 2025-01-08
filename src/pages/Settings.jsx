@@ -112,7 +112,7 @@ export default function Settings() {
 	const [fontSize, setFontSize] = useState(1)
 	const [animationSpeed, setAnimationSpeed] = useState(1)
 	return (
-		<div>
+		<div className='main'>
 			<div className='section d-block'>
 				<h2>Primary Theme</h2>
 				<div className='options-container'>
